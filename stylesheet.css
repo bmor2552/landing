@@ -1,5 +1,5 @@
 .container{
-    box-sizing: border-box;
+box-sizing: border-box;
 display: flex;
 flex-direction: column;
 margin: 0%;
@@ -24,17 +24,29 @@ a{
     color: #f9faf8;
 }
 
+.random{
+align-self:center;
+}
+
 .para-1{
 
 }
 
+ button{
+    background-color: white;
+    border-color: #3882f6;
+    padding: 50px;
+    border-radius: 8px;
+    border-style: solid;
+    margin: 10px;
+    
+}
 .button-1{
     
 }
 
 .button-1, .button-2{
 background-color: #3882f6;
-border-color: #f9faf8; 
 color: #f9faf8;
 border-radius: 6px;
 padding: 2px 10px;
@@ -46,11 +58,12 @@ padding: 2px 10px;
 
 }
 
-.box-1.box-2.box-3{
+/*.box-1.box-2.box-3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+    align-self: center;
+}*/
 
 span{
     font-weight: bolder;
@@ -59,6 +72,8 @@ span{
 
 .para-2{
 background-color: #e5e7eb;
+margin: 150px;
+padding: 50px;
 }
 
 .para-3{
@@ -73,6 +88,8 @@ background-color: #e5e7eb;
 }
 
 .footer{
+color: white;
 background-color: #1f2937;
+padding: 25px 350px;
 
 }
